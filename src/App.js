@@ -16,7 +16,7 @@ class Filter extends Component{
 	render() {
 		return (
 			<div>
-				<img/>
+			<img alt="something" />
 				<br/><br/>
 				<input type="text" className="search" placeholder="Search"/>
 				<br/><br/>
@@ -29,7 +29,7 @@ class Playlist extends Component {
 	render() {
 		return (
 				<div className="col-md-4 ">
-					<img />
+					<img alt="something" />
 					<h3>Playlist name</h3>
 					<br/><br/>
 					<ul className="list-group">
